@@ -1,0 +1,49 @@
+
+@media  screen and (max-width : 1024px) {
+
+  main, header{
+        width: 100rem;
+  }
+  .container{
+    height: 9vh;
+    font-size: 25px;
+  }
+
+  .dropdown{
+      font-size: 15px;
+  }
+
+  .i{
+    height:17px; width: 17px;
+    background-color:#004079;
+    padding-top: 0.1rem;
+  }
+  input{
+    height: 20px;
+    width: 160px;
+  }
+
+  button{
+    background-color: #004079;
+    margin-left: 5px;
+    border: none;
+    border-radius: 9px;
+  }
+
+
+  .f1{
+  	background : rgba(0, 0, 0, 0.6);
+    height: 23rem;
+    width: 20.5rem;
+    margin-left:2rem;
+    margin-top: 12.5rem;
+
+  	z-index: 0;
+  	opacity: 0;
+  	transition: opacity 0.25s;
+
+}
+
+
+
+}

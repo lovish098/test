@@ -1,0 +1,162 @@
+/* background: #032848;
+background-color: #004079;
+#eb9336 */
+
+/* -----------------------banner */
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{	 background: linear-gradient(90deg,rgb(15 10 20) 15%,rgb(72 37 83) 50%,rgb(4 5 75) 91%); }
+
+.bannerStyle{
+	background-color: rgb(2,12,68);
+  max-width: 100%;
+  height: auto;
+}
+
+
+ .container{
+   display: flex;
+   font-size: 19px;
+   height: 9vh;
+   background-color: #004079;
+ }
+
+ .navbar{
+   margin: auto;
+   background: #004079;
+   /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+ }
+
+ .nav-links {
+   display: flex;
+   gap : 8rem;
+ }
+
+
+.nav-link, .dropdown li {
+  list-style: none;
+  width: auto;
+  padding-bottom: 0.5rem;
+}
+
+
+a{ text-decoration: none; color: white;}
+.services ul li a { color:  #004079;}
+
+.dropdown{
+  position: absolute;
+  /* padding: 0.5rem 0rem; */
+
+  margin: 0.0rem -2rem;
+	background-color:white;
+  color: white;
+  font-size: 17px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 25px;
+  opacity: 0;
+  z-index: 1;
+}
+.dropdown li a {
+  padding-bottom: 0.5rem;
+}
+.services a {display: flex;}
+
+.dropdown li a:hover{
+	border-bottom: 2px solid  #004079;
+}
+.nav-link a:hover {
+  color: #eb9336;
+}
+
+.services:hover .dropdown{
+  opacity: 1;
+}
+
+
+
+.i{
+	height:15px; width: 15px;
+	background-color:#004079;
+}
+
+button{
+	margin-left: 5px;
+	border: none;
+	border-radius: 8px;
+}
+input{
+	border: none;
+	border-radius: 8px;
+	height: 18px;
+	width: 140px;
+}
+
+
+
+/* -------------------main------------------------------------ */
+
+main {
+  /* background: linear-gradient(90deg,rgb(15 10 20) 15%,rgb(72 37 83) 50%,rgb(4 5 75) 91%); */
+}
+
+.mainc{
+	background-color: #f5fafd;
+	height: 500px;
+	width: 80%;
+	margin-top: 2rem;
+	margin-left: 10rem;
+	border: 2px solid #ecec;
+	font: normal 16px Helvetica,Verdana Arial,sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+  margin-bottom : 2rem;
+}
+
+.mainc h4{
+	font-size: 19px;
+	color:  #004079;
+	padding: 13px;
+	margin-left: 12px;
+}
+
+.maicncc {
+	margin-top: 1.1rem;
+	position: absolute;
+	margin-left: 1.1rem;
+	padding-left: 10px;
+	width: 77%;
+	box-shadow: 2px 4px 20px black;
+}
+
+.hhh h6{
+  padding-left: 25px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+.hhhh{
+  display: flex;
+  justify-content: space-around;
+}
+
+.of , .info {
+  padding : 12px;
+  height: 28vh;
+  width: auto;
+	box-shadow: 2px 4px 20px black;
+}
+
+.contact{
+  height: 39vh;
+	margin-top: 0rem;
+	margin-left: 1.1rem;
+	padding-left: 10px;
+	width: 96%;
+	box-shadow: 2px 4px 20px black;
+}
